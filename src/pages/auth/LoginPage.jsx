@@ -1,4 +1,4 @@
-import "../styles/LoginPage.css";
+import "../../styles/auth/LoginPage.css";
 
 function LoginPage() {
     return (
