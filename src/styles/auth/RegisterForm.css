@@ -1,0 +1,32 @@
+.register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 500px;
+}
+
+.register-form input {
+    outline: none;
+    background: white;
+    height: 50px;
+
+    box-sizing: border-box;
+    color: #242424;
+    padding-left: 0.625rem;
+}
+
+.username-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.username-input {
+    width: 60%;
+}
+
+.duplicate-btn {
+    width: 30%;
+}
+
