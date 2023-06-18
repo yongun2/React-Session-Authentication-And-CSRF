@@ -1,0 +1,9 @@
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: white;
+}
