@@ -1,15 +1,14 @@
-import "../../styles/auth/LoginPage.css";
+import "../../styles/auth/LoginForm.css";
+import AuthTemplate from "../../components/templates/AuthTemplate.jsx";
+import LoginForm from "../../components/auth/LoginForm.jsx";
 
 function LoginPage() {
     return (
-        <div className={"login-container"}>
+        <AuthTemplate>
             <h1>로그인</h1>
-            <form>
-                <input placeholder={"아이디"} type={"text"}/>
-                <input placeholder={"비밀번호"} type={"password"}/>
-                <input className={"submit-btn"} type={"submit"} value={"로그인"}/>
-            </form>
-        </div>
+            <LoginForm/>
+        </AuthTemplate>
+
     );
 }
 
